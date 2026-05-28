@@ -1,5 +1,7 @@
 # AI Email Reply Assistant
 
+Live App: https://ai-email-assistant-mu.vercel.app/
+
 An AI-powered email reply generator using **Groq** (Llama 3.3 70B). No login required — open for everyone to use.
 
 ## Features
