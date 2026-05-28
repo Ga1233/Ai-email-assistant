@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: ai-email-assistant-api
+    runtime: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GROQ_API_KEY
+        sync: false          # Render will ask you to enter this in the dashboard
+      - key: CLIENT_URL
+        sync: false          # Enter your Vercel URL here after frontend is deployed
